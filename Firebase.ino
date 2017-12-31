@@ -20,6 +20,8 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
+#include "secret.h"
+
 void initWifi()
 {
     // connect to wifi.
